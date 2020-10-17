@@ -17,10 +17,6 @@ public class Plate {
             cat.satiety = true;
             cat.appetite = 0;
         }
-        else
-        {
-            System.out.println("Еда кончилась!");
-        }
 
     }
     public int getFood()
