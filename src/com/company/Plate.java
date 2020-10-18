@@ -19,16 +19,13 @@ public class Plate {
         }
 
     }
-    public int getFood()
-    {
-        return food;
-    }
 
     public void increaseFood()
     {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        food += n;
+        food += scanner.nextInt();
+        System.out.println("Введите количество у.е. еды, которое хотите добавить(целое положительное число)");
         scanner.close();
+
     }
 }

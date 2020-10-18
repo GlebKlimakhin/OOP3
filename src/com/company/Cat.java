@@ -1,7 +1,7 @@
 package com.company;
 
 public class Cat {
-    public String name;
+    private String name;
     public int appetite;
     public boolean satiety;
     public Cat(String name, int appetite) {
@@ -13,13 +13,9 @@ public class Cat {
     {
         plate.decreaseFood(cat);
     }
-    public int getAppetite()
-    {
-        return appetite;
-    }
     public void getInfo()
     {
-        System.out.println(name + " " + appetite + " " + satiety);
+        System.out.println("Имя : " + name + " Сытость: " + satiety);
     }
 
 }
